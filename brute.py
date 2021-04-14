@@ -14,7 +14,7 @@ file1 = open(filepath,'r')
 lines= file1.readlines()
 
 passwords = []
-passwords1 = ['123123213213','123','123213213214234']
+
 for i in range(len(lines)) :
   mo = spaceREG.search(lines[i])
   passwords.append(mo.group())
